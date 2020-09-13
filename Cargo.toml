@@ -1,0 +1,20 @@
+[package]
+name = "study-real-world-http"
+version = "0.1.0"
+authors = ["masinc <masinc000@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+
+[dependencies]
+reqwest = "0.10.8"
+tokio ={ version = "0.2.22", features = ["full"]}
+actix-web = "3.0.1"
+actix-server = "1.0.4"
+actix-rt = "*"
+anyhow = "1.0.32"
+lazy_static = "1.4.0"
+bytes = "0.5.6"
+big_s = "1.0.2"
